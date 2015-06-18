@@ -9,3 +9,7 @@ INSTALLATION - README:
 
 
 acam, 06.Feb.2014
+
+========================
+The lastest software can be donwloaded from:
+http://www.acam.de/download-center/picocap/
