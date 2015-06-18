@@ -1,4 +1,9 @@
-%calculates the constants 
+% This function calculates the constants of the mirror to be used on the
+% simulink Model. 
+% I is the moment of Inertia of the mirror
+% C is the rotational Friction
+% K is the torsion coeddicient
+
 function [I, C, K] = calculate_constants(l,w,d,Q,Wn)
 % Q is the q-factor
 % Wn is the undamped natural frequency in Hz.
