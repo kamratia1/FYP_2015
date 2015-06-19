@@ -15,27 +15,27 @@
 /* Pin Definitions */
 
 // GPIOs
-#define MIRROR_CONTROL_PIN			GPIO_Pin_8		// PC8
+#define MIRROR_CONTROL_PIN			GPIO_Pin_8		// PC8	// In the final PCB this is PA3
 #define MIRROR_CONTROL_PORT			GPIOC
 #define MIRROR_CONTROL_CLK			RCC_AHBPeriph_GPIOC
 
-#define HV_EN_PIN								GPIO_Pin_9		// PC9
+#define HV_EN_PIN								GPIO_Pin_9		// PC9	// In the final PCB this is PF0
 #define HV_EN_PORT							GPIOC
 #define HV_EN_CLK								RCC_AHBPeriph_GPIOC
 
-#define SYNC_PIN								GPIO_Pin_1		// PF1
-#define SYNC_PORT								GPIOF
-#define SYNC_CLK								RCC_AHBPeriph_GPIOF
+#define SYNC_PIN								GPIO_Pin_0		// PA0
+#define SYNC_PORT								GPIOA
+#define SYNC_CLK								RCC_AHBPeriph_GPIOA
 
 // ADC for PICOCAP Capacitance Analogue Values
 #define PCAP_PDM_PIN							GPIO_Pin_1		// PA1 
 #define PCAP_PDM_PORT							GPIOA
 #define PCAP_PDM_CLK							RCC_AHBPeriph_GPIOA
-#define PCAP_ADC_SAMPLING_TIME		ADC_SampleTime_13_5Cycles
+#define PCAP_ADC_SAMPLING_TIME		ADC_SampleTime_1_5Cycles
 #define PCAP_PDM_ADC_CHANNEL			ADC_Channel_1 	
 
 // PWM for HV Converter Voltage Adjust Definitions
-#define PWM_VADJUST_PIN					GPIO_Pin_8		//PA8
+#define PWM_VADJUST_PIN					GPIO_Pin_8		//PA8			// In the final PCB, this is PB1 on TIM1 Channel 3
 #define PWM_VADJUST_PORT				GPIOA
 #define PWM_VADJUST_CLK					RCC_AHBPeriph_GPIOA
 #define PWM_VADJUST_AF_PIN			GPIO_PinSource8		

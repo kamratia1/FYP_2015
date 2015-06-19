@@ -9,7 +9,7 @@
 	#define ADC_VREF 3.0f
 #endif
 
-#define NO_SAMPLES 50
+#define NO_SAMPLES 100
 #define NO_CHANNELS 1
 
 //Public Variables
