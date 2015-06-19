@@ -91,7 +91,7 @@ void TIM2_Config(void)
 	TIM_TimeBaseInit(TIM2, &TIM_TimeBaseStructure);
 	
 	/* Prescaler configuration */
-  //TIM_PrescalerConfig(TIM2, PrescalerValue2, TIM_PSCReloadMode_Immediate);
+  TIM_PrescalerConfig(TIM2, PrescalerValue2, TIM_PSCReloadMode_Immediate);
 
 	TIM_Cmd(TIM2, ENABLE);
 	

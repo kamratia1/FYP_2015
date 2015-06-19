@@ -25,7 +25,6 @@ int main(void)
 	Serial.begin(115200);		// Initialise serial interface at 115200 baud rate
 	IO_init();							// Initialise all I/O pins
 	ADC_init();							// Initialise ADC for capacitance measurement						
-	HV_ref_init(40000);			// Setup High Voltage Converter PWM frequency at 40kHz
 	TIM2_Config();					// Setup Timer2 as a counter for time measurement purposes
 
 	os_sys_init(init); 

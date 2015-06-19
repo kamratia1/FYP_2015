@@ -25,7 +25,7 @@ void set_duty_cycle(uint16_t duty_cycle)
 	// duty cycle is a value between 0 and 100
 	Pulse = (uint16_t) (((uint32_t) (100-duty_cycle)*(TimerPeriod-1))/100);
 	TIM_OCInitStructure_PWM.TIM_Pulse = Pulse;	
-	TIM_OC3Init(PWM_TIMER, &TIM_OCInitStructure_PWM);
+	TIM_OC1Init(PWM_TIMER, &TIM_OCInitStructure_PWM);
 }
 
 void HV_ref_init(uint16_t freq) 
@@ -85,6 +85,8 @@ void HV_ref_init(uint16_t freq)
 
 void pwm_init_mirror(float freq, uint16_t duty_cycle) 
 {
+	// This function can be used to set a frequency and duty cycle and
+	// can be used to drive the mirror if the mirror control mosfet gate is connected to PA3
 	
 	// configure the GPIO Alternate function pins for the PWM
 	GPIO_InitTypeDef GPIO_InitStructure;

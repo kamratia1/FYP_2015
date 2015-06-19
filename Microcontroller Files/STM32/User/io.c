@@ -3,8 +3,8 @@
 void mirror_drive_en(uint8_t en)
 {
 	// Set(1) or reset(0) the mirror drive signal
-	if(!en)	GPIO_ResetBits(MIRROR_CONTROL_PORT, MIRROR_CONTROL_PIN);
-	else	GPIO_SetBits(MIRROR_CONTROL_PORT, MIRROR_CONTROL_PIN);
+	if(!en)	GPIO_SetBits(MIRROR_CONTROL_PORT, MIRROR_CONTROL_PIN);
+	else	GPIO_ResetBits(MIRROR_CONTROL_PORT, MIRROR_CONTROL_PIN);
 }
 
 void HV_en(uint8_t en)

@@ -7,7 +7,7 @@ volatile uint16_t result = 0;
 signed int d1 = 0;
 signed int d2 = 0;
 signed int diff = 0;
-volatile int drive_flg;
+volatile int drive_flg = 2;
 
 void closed_loop(void)
 {
@@ -24,17 +24,13 @@ void closed_loop(void)
 	if(diff>THRESHOLD) // falling derivative
 	{ 
 		if(d2>=0 && d1<=0){
-			//mirror_drive_en(0);
-			drive_flg = 1;
-			//dead_band(DEAD_BAND);
+			drive_flg = 0;		// Set drive signal to 0
 		}
 	}
 	else if (diff<THRESHOLD2)// rising derivative
 	{
 		if(d2<=0 && d1>=0){
-			//mirror_drive_en(1);
-			drive_flg = 2;
-			//dead_band(DEAD_BAND);
+			drive_flg = 1;		// set drive signal to 1
 		}
 	}	
 }
@@ -54,9 +50,9 @@ void startup_seq(uint8_t cycles, uint8_t freq, uint8_t duty)
 	
 	while(i<cycles)
 	{
-		mirror_drive_en(0);
-		delay_us((uint16_t) time_on);
 		mirror_drive_en(1);
+		delay_us((uint16_t) time_on);
+		mirror_drive_en(0);
 		delay_us((uint16_t) time_off);
 		i++;
 	}

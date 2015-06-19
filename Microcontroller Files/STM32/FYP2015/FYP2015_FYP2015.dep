@@ -589,8 +589,8 @@ I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_spi.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x5567240B)
-F (.\User\main.c)(0x5583F1FA)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\main.o --omf_browse .\fyp2015\main.crf --depend .\fyp2015\main.d)
-I (User\config.h)(0x5571CF15)
+F (.\User\main.c)(0x55842CF1)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\main.o --omf_browse .\fyp2015\main.crf --depend .\fyp2015\main.d)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -659,7 +659,7 @@ I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x5567240B)
 I (C:\Keil_v5\ARM\RV31\INC\RTL.h)(0x5432D9B4)
 I (User\algorithm.h)(0x5570C213)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A0DFC)
 I (User\trace.h)(0x556757ED)
 I (User\io.h)(0x5568D84E)
@@ -727,7 +727,7 @@ F (.\User\trace.c)(0x556757CA)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB 
 I (User\trace.h)(0x556757ED)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A0DFC)
 F (.\User\RTX_Conf_CM.c)(0x5567618E)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\rtx_conf_cm.o --omf_browse .\fyp2015\rtx_conf_cm.crf --depend .\fyp2015\rtx_conf_cm.d)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -822,13 +822,13 @@ I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_tim.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_usart.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_wwdg.h)(0x5567240B)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x5567240B)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (C:\Keil_v5\ARM\RV31\INC\RTL.h)(0x5432D9B4)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A0DFC)
 I (User\trace.h)(0x556757ED)
-F (.\User\pwm.c)(0x558309A7)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\pwm.o --omf_browse .\fyp2015\pwm.crf --depend .\fyp2015\pwm.d)
+F (.\User\pwm.c)(0x558449B9)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\pwm.o --omf_browse .\fyp2015\pwm.crf --depend .\fyp2015\pwm.d)
 I (User\pwm.h)(0x5583068C)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -861,9 +861,9 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A0DFC)
 I (User\trace.h)(0x556757ED)
 I (User\adc.h)(0x558340C9)
 I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x5567240A)
-F (.\User\timer.c)(0x55834565)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\timer.o --omf_browse .\fyp2015\timer.crf --depend .\fyp2015\timer.d)
+F (.\User\timer.c)(0x55842186)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\timer.o --omf_browse .\fyp2015\timer.crf --depend .\fyp2015\timer.d)
 I (User\timer.h)(0x558344A9)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -894,9 +894,9 @@ I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_misc.h)(0x5567240B)
 I (C:\Keil_v5\ARM\RV31\INC\RTL.h)(0x5432D9B4)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A0DFC)
 I (User\trace.h)(0x556757ED)
-F (.\User\io.c)(0x558342E8)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\io.o --omf_browse .\fyp2015\io.crf --depend .\fyp2015\io.d)
+F (.\User\io.c)(0x5584144B)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\io.o --omf_browse .\fyp2015\io.crf --depend .\fyp2015\io.d)
 I (User\io.h)(0x5568D84E)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -929,7 +929,7 @@ I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A0DFC)
 I (User\trace.h)(0x556757ED)
 F (.\User\aux_task.c)(0x5583FF00)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\aux_task.o --omf_browse .\fyp2015\aux_task.crf --depend .\fyp2015\aux_task.d)
 I (User\tasks.h)(0x55690F96)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -966,9 +966,9 @@ I (.\Libraries\STM32F0xx_StdPeriph_Driver\inc\stm32f0xx_adc.h)(0x5567240A)
 I (User\timer.h)(0x558344A9)
 I (User\io.h)(0x5568D84E)
 I (User\serial.h)(0x5568EE00)
-F (.\User\main_task.c)(0x55840041)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\main_task.o --omf_browse .\fyp2015\main_task.crf --depend .\fyp2015\main_task.d)
+F (.\User\main_task.c)(0x55844F6C)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\main_task.o --omf_browse .\fyp2015\main_task.crf --depend .\fyp2015\main_task.d)
 I (User\tasks.h)(0x55690F96)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
@@ -1006,9 +1006,9 @@ I (User\timer.h)(0x558344A9)
 I (User\io.h)(0x5568D84E)
 I (User\serial.h)(0x5568EE00)
 I (User\algorithm.h)(0x5570C213)
-F (.\User\algorithm.c)(0x558309E3)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\algorithm.o --omf_browse .\fyp2015\algorithm.crf --depend .\fyp2015\algorithm.d)
+F (.\User\algorithm.c)(0x55842A8E)(-c --cpu Cortex-M0 -D__RTX -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I.\Libraries\CMSIS\Include -I.\Libraries\CMSIS\Device\ST\STM32F0xx\Include -I.\Libraries\STM32F0xx_StdPeriph_Driver\inc -I.\Utilities\STM32F0308-Discovery -I.\ -I.\User-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ST\STM32F0xx-DSTM32F030 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX -DSTM32F030-o .\fyp2015\algorithm.o --omf_browse .\fyp2015\algorithm.crf --depend .\fyp2015\algorithm.d)
 I (User\algorithm.h)(0x5570C213)
-I (User\config.h)(0x5571CF15)
+I (User\config.h)(0x55844F0A)
 I (.\Libraries\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x55672402)
 I (.\Libraries\CMSIS\Include\core_cm0.h)(0x5567240A)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A0DFA)
