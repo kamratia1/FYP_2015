@@ -4,7 +4,7 @@ Final Year Project. Kishan Amratia
 
 ![MEMS Scanning Mirror](cover.png)
 
-The repository is split into different files 
+The repository is split into different folders: 
 
 * __MATLAB Files__: Contains all MATLAB scripts and files for the simulation model developed for the project
 * __Microcontroller Files__: Contains software for the microcontroller
