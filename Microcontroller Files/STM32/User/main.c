@@ -2,25 +2,31 @@
 #include "serial.h"
 #include "tasks.h"
 
-uint32_t Counter;
-uint32_t avg_counter;
-
 __task void init(void)
 {	
-	//Maximum of four running tasks, so can only launch three tasks here, any more will be ignored.
-	//LED_t = os_tsk_create_user(LED_task, 0, &LED_stk, sizeof(LED_stk));
+	// Setup the different tasks for the RTOS
 	
-	main_t = os_tsk_create_user(main_task, 0, &main_stk, sizeof(main_stk));
+	// Main Task: Runs the algorithm for controlling the mirror
+	main_t = os_tsk_create_user(main_task, 0, &main_stk, sizeof(main_stk));	
+	
+	// Auxillary Task: sends and recevies data to/from PC to set variables in the software
 	aux_t = os_tsk_create_user(aux_task, 1, &aux_stk, sizeof(aux_stk));
 	
+	/* os_tsk_delete_self:
+		 Function stops and deletes the currently running task. The function doesnt return.
+		 The program execution continues with the task with the next highest priority in the ready queue. 
+	*/
 	os_tsk_delete_self ();
 }
 
 
 int main(void)
 {
-	Serial.begin(115200);		// initialise serial interface at 115200 baud rate
-	IO_init();							// initialise all I/O pins
+	Serial.begin(115200);		// Initialise serial interface at 115200 baud rate
+	IO_init();							// Initialise all I/O pins
+	ADC_init();							// Initialise ADC for capacitance measurement						
+	HV_ref_init(40000);			// Setup High Voltage Converter PWM frequency at 40kHz
+	TIM2_Config();					// Setup Timer2 as a counter for time measurement purposes
 
 	os_sys_init(init); 
 	

@@ -39,7 +39,7 @@ uint16_t get_capacitance_value(void)
 
 }
 
-void adc_init( void )
+void ADC_init( void )
 {
 	
 	ADC_InitTypeDef ADC_InitStructure;

@@ -74,6 +74,7 @@ void TIM3_Config(uint16_t freq)
 
 void TIM2_Config(void)
 {
+	// Setup a Counter for time measurement
 	TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
 	
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);

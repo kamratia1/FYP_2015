@@ -34,7 +34,6 @@
 
 /* Private variables ---------------------------------------------------------*/
 extern __IO uint16_t CCR3_Val;
-extern __IO uint16_t CCR4_Val;
 uint16_t capture = 0;
 
 /* Private typedef -----------------------------------------------------------*/
@@ -80,6 +79,7 @@ void HardFault_Handler(void)
 void TIM3_IRQHandler(void)
 {
   // interrupt handler for TImer 3
+	// This interrupts every 10
 	TIM_ClearITPendingBit(TIM3, TIM_IT_CC3);
 	
 	closed_loop();	

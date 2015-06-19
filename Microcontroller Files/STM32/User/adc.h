@@ -18,7 +18,7 @@ extern volatile uint16_t RegularConvData_Tab[NO_SAMPLES*NO_CHANNELS];
 /* Private variables ---------------------------------------------------------*/
 
 /* Public function prototypes -----------------------------------------------*/
-void adc_init(void);
+void ADC_init(void);
 uint16_t get_capacitance(void);
 uint16_t get_capacitance_value(void);
 

@@ -59,7 +59,6 @@ void startup_seq(uint8_t cycles, uint8_t freq, uint8_t duty)
 		mirror_drive_en(1);
 		delay_us((uint16_t) time_off);
 		i++;
-		
 	}
 }
 

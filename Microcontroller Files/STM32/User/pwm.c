@@ -2,8 +2,10 @@
 
 TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure_PWM;
 TIM_OCInitTypeDef  TIM_OCInitStructure_PWM;
+
 TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure_PWM1;
 TIM_OCInitTypeDef  TIM_OCInitStructure_PWM1;
+
 uint16_t TimerPeriod = 0;
 uint16_t Pulse;
 uint16_t PrescalerV = 0;
@@ -26,8 +28,10 @@ void set_duty_cycle(uint16_t duty_cycle)
 	TIM_OC3Init(PWM_TIMER, &TIM_OCInitStructure_PWM);
 }
 
-void pwm_init(uint16_t freq) 
+void HV_ref_init(uint16_t freq) 
 {
+	// initialise PWM frequency for the HV Converter Reference
+	
 	// configure the GPIO Alternate function pins for the PWM
 	GPIO_InitTypeDef GPIO_InitStructure;
 
