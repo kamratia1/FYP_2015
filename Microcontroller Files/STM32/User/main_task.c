@@ -8,7 +8,7 @@ U64 main_stk[MAIN_STK_SIZE];
 OS_TID main_t;
 
 uint32_t Counter;
-float avg_counter;
+uint8_t i = 0;
 
 #define PHASE_DELAY 	3470  // in microseconds
 
@@ -46,6 +46,8 @@ void drive_transition(void)
 				
 				delay_us(PHASE_DELAY);									// phase delay compensation
 				mirror_drive_en(0);											// negative transition on drive signal
+				SYNC_en(i);															// send out a synchronisation signal
+				i = !i;
 			}
 			else 		// Set drive signal to 1
 			{	
